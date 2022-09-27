@@ -1,13 +1,13 @@
-let count=0;
+let prime_count=0;
 function checkprime(num){
     for(i=1;i<=num;i++){
         if(num%i==0){
-            count++;
+            prime_count++;
         }
     }
-    if(count==2){
-        console.log("Prime")
-    }
-    return false;
+    if(prime_count==2){
+        console.log("Prime");
+    } else { console.log("No"); }
+    
 }
-console.log(checkprime());
+console.log(checkprime(13));
