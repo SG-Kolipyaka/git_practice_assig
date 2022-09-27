@@ -1,8 +1,8 @@
-let str="naman";
-let bag="";
-for(i=str.length-1;i=0;i--){
-bag=bag+str[i];
+let str="racecar";
+let jhola="";
+for(i=str.length-1;i>=0;i--){
+jhola+=+str[i];
 }
-if(bag==str){
+if(jhola==str){
     console.log("YES");
 }
